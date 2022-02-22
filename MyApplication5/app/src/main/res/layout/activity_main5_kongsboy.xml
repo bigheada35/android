@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background = "#000000"
+    tools:context=".MainActivity">
+<!--    android:gravity="bottom|right"
+        android:gravity="center"
+        android:gravity="cright|bottom"
+        android:gravity="center"
+
+        ??
+        gravity  vs layout_gravity
+-->
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="쿵스보이"
+        android:background="#ff0000"
+        android:textSize="50dp"
+
+        android:layout_marginTop="200dp"
+
+    />
+<!--
+        margin과 marginTop 2개를 같이 사용하면 아래것이 안먹힌 다. 참고
+        android:layout_margin="20dp"
+        android:layout_marginTop="200dp"
+
+        참고
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:layout_width="200"
+        android:layout_height="300"
+
+        android:layout_marginBottom="20dp"
+        android:layout_marginTop="500dp"
+
+  -->
+
+</LinearLayout>

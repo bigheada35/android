@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#f0f0f0"
+    tools:context=".MainActivity">
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="300dp"
+            android:text="123,456,789"
+            android:background="#0000ff"
+            android:textColor ="#ffffff"
+            android:textStyle="bold"
+            android:gravity="center|right"
+            android:textSize="50dp"
+            android:layout_margin="30dp"
+            >
+        </TextView>
+
+    <TableRow>
+
+    </TableRow>
+
+    <TableRow>
+
+    </TableRow>
+
+    <TableRow >
+        <Button android:height="60dp" android:background="#dddddd" >
+        </Button>
+        <Button android:height="60dp" android:background="#dddddd" >
+        </Button>
+        <Button android:height="60dp" android:background="#dddddd" >
+        </Button>
+        <Button android:height="60dp" android:background="#dddddd" >
+        </Button>
+    </TableRow>
+
+    <TableRow >
+        <Button android:height="60dp" android:background="#dddddd" android:layout_margin="5dp">
+        </Button>
+        <Button android:height="60dp" android:background="#dddddd" android:layout_margin="5dp" >
+        </Button>
+        <Button android:height="60dp" android:background="#dddddd" android:layout_margin="5dp">
+        </Button>
+        <Button android:height="60dp" android:background="#dddddd" android:layout_margin="5dp">
+        </Button>
+    </TableRow>
+    <TableRow >
+        <Button android:height="60dp" android:background="#dddddd" android:layout_margin="5dp">
+        </Button>
+        <Button android:height="60dp" android:background="#dddddd" android:layout_margin="5dp">
+        </Button>
+        <Button android:height="60dp" android:background="#dddddd" android:layout_margin="5dp">
+        </Button>
+        <Button android:height="60dp" android:background="#dddddd" android:layout_margin="5dp">
+        </Button>
+
+    </TableRow>
+    <TableRow >
+        <Button android:height="60dp" android:background="#dddddd" android:layout_margin="5dp">
+        </Button>
+        <Button android:height="60dp" android:background="#dddddd" android:layout_margin="5dp">
+        </Button>
+        <Button android:height="60dp" android:background="#dddddd" android:layout_margin="5dp">
+        </Button>
+        <Button android:height="60dp" android:background="#dddddd" android:layout_margin="5dp">
+        </Button>
+    </TableRow>
+    <TableRow >
+        <Button android:height="60dp" android:background="#dddddd" android:layout_margin="5dp">
+        </Button>
+        <Button android:height="60dp" android:background="#dddddd" android:layout_margin="5dp">
+        </Button>
+        <Button android:height="60dp" android:background="#dddddd" android:layout_margin="5dp">
+        </Button>
+        <Button android:height="60dp" android:background="#dddddd" android:layout_margin="5dp">
+        </Button>
+    </TableRow>
+
+    <TableRow >
+        <Button android:height="60dp" android:background="#dddddd" android:layout_margin="5dp">
+        </Button>
+        <Button android:height="60dp" android:background="#dddddd" android:layout_margin="5dp">
+        </Button>
+        <Button android:height="60dp" android:background="#dddddd" android:layout_margin="5dp">
+        </Button>
+        <Button android:height="60dp" android:background="#dddddd" android:layout_margin="5dp">
+        </Button>
+    </TableRow>
+</TableLayout>
+
+
+
+

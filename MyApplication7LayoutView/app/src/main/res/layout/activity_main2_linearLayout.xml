@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="레이아웃"
+        android:textSize="20sp"
+        android:layout_marginTop="20dp"
+        android:layout_gravity="center"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="레이아웃 어렵지 않아요."
+        android:textSize="18sp"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_gravity="left"
+        />
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="184dp"
+        >
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@mipmap/ic_launcher"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="150dp"
+            android:text="나의 사진" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:layout_marginLeft="150dp"
+            android:layout_marginTop="40dp"
+            android:layout_marginRight="70dp"
+            android:text="안드로이드를 이용해서 멋진 모바일 앱을 만들어 보아요." />
+    </RelativeLayout>
+
+
+    <!--    stretchColumns : 0 부터 시작-->
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:stretchColumns="1"
+        >
+        <TableRow>
+            <TextView
+                android:text="ID"
+                android:textSize="18sp"
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                >
+            </TextView>
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                >
+            </EditText>
+        </TableRow>
+        <TableRow>
+            <TextView
+                android:text="PassWord"
+                android:textSize="18sp"
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                >
+            </TextView>
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                >
+
+            </EditText>
+        </TableRow>
+    </TableLayout>
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        >
+        <Button
+            android:id="@+id/btn_save"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="16sp"
+            android:text="저장하기"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentRight="true"
+            >
+        </Button>
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toLeftOf="@id/btn_save"
+            android:textSize="16sp"
+            android:text="나가기"
+            android:layout_marginRight="5dp"
+            android:layout_alignParentBottom="true"
+            >
+        </Button>
+    </RelativeLayout>
+
+
+</LinearLayout>

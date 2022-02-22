@@ -1,0 +1,56 @@
+echo "# android" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/bigheada35/android.git
+git push -u origin main
+
+-----------------------------------ex---------------------------------------
+swj@DESKTOP-IFCBCGC MINGW64 /c/CookAndroid/Project
+$ echo "# android" >> README.md
+
+swj@DESKTOP-IFCBCGC MINGW64 /c/CookAndroid/Project
+$ git init
+Initialized empty Git repository in C:/CookAndroid/Project/.git/
+
+swj@DESKTOP-IFCBCGC MINGW64 /c/CookAndroid/Project (master)
+$ git add README.md
+warning: LF will be replaced by CRLF in README.md.
+The file will have its original line endings in your working directory
+
+swj@DESKTOP-IFCBCGC MINGW64 /c/CookAndroid/Project (master)
+$ git commit -m "first commit"
+[master (root-commit) d28c1af] first commit
+ 1 file changed, 1 insertion(+)
+ create mode 100644 README.md
+
+swj@DESKTOP-IFCBCGC MINGW64 /c/CookAndroid/Project (master)
+$ git add .gitignore
+
+swj@DESKTOP-IFCBCGC MINGW64 /c/CookAndroid/Project (master)
+$ git commit -m "first commit"
+[master 9973e76] first commit
+ 1 file changed, 85 insertions(+)
+ create mode 100644 .gitignore
+
+swj@DESKTOP-IFCBCGC MINGW64 /c/CookAndroid/Project (master)
+$ git branch -M main
+
+swj@DESKTOP-IFCBCGC MINGW64 /c/CookAndroid/Project (main)
+$ git remote add origin https://github.com/bigheada35/android.git
+
+swj@DESKTOP-IFCBCGC MINGW64 /c/CookAndroid/Project (main)
+$ git push -u origin main
+Enumerating objects: 6, done.
+Counting objects: 100% (6/6), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (4/4), done.
+Writing objects: 100% (6/6), 1.13 KiB | 578.00 KiB/s, done.
+Total 6 (delta 0), reused 0 (delta 0), pack-reused 0
+To https://github.com/bigheada35/android.git
+ * [new branch]      main -> main
+Branch 'main' set up to track remote branch 'main' from 'origin'.
+
+swj@DESKTOP-IFCBCGC MINGW64 /c/CookAndroid/Project (main)
+$

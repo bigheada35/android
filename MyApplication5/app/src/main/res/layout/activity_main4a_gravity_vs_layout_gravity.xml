@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background = "#FF0000"
+    android:gravity="center"
+    tools:context=".MainActivity">
+<!--    android:gravity="bottom|right"
+        android:gravity="center"
+        android:gravity="cright|bottom"
+        android:gravity="center"
+
+        ??
+        gravity  vs layout_gravity
+-->
+<!--
+    layout이 붙은 것과 안 붙은 것의 차이
+             ^           ^ 자기자신 속성
+             +  부모한테 요청을 함 (다 되는건 아니고 부모가 판단)
+
+             gravity는  자식에 영향을 미친다.
+-->
+    <Button
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:text="버튼1"
+        android:background="#ff0000"
+
+        android:layout_gravity="right|bottom"
+
+    />
+<!--
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:layout_width="200"
+        android:layout_height="300"
+
+        android:layout_marginBottom="20dp"
+        android:layout_marginTop="500dp"
+        android:textSize="30dp"
+        android:layout_margin="20dp"
+
+  -->
+
+</LinearLayout>
