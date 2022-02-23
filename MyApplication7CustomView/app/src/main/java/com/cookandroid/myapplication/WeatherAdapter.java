@@ -1,6 +1,7 @@
 package com.cookandroid.myapplication;
 
 import android.content.Context;
+import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -42,7 +43,7 @@ public class WeatherAdapter extends BaseAdapter {
 
     @Override
     public View getView(int position, View convertView, ViewGroup viewGroup) {
-
+        Log.i("아답터 뷰", "포지션" + position);
         if(convertView == null) {
             convertView = inflater.inflate(this.layout, viewGroup, false);
         }
