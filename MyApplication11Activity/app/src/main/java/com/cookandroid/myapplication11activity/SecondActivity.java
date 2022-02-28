@@ -15,6 +15,9 @@ public class SecondActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_second);
 
+
+
+
         Log.i("MainActivity", "2onCreate()");
         Button btn = (Button)findViewById(R.id.bt_second);
         btn.setOnClickListener(new View.OnClickListener(){
@@ -28,6 +31,11 @@ public class SecondActivity extends AppCompatActivity {
                 //finish();
             }
         });
+
+        Intent intent = getIntent();
+        String message = intent.getStringExtra("문자");
+        //Integer number = intent.getIntExtra("숫자");
+        btn.setText(message);
 
     }
 
