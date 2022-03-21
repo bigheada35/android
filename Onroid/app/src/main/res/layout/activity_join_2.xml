@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/bg_color">
+
+    <ScrollView
+        android:id="@+id/scrollview"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fillViewport="true"
+        android:layout_above="@+id/bottom">
+        <LinearLayout
+            android:id="@+id/content"
+            android:layout_above="@+id/bottom"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:paddingLeft="11dp"
+            android:paddingRight="11dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:drawableBottom="@drawable/orange_line"
+                android:drawablePadding="12dp"
+                android:gravity="center"
+                android:text="@string/join_member_info_guide"
+                android:textAppearance="@style/BoldlStyle19sp333333" />
+
+            <TextView
+                android:id="@+id/textview_id"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="35dp"
+                android:text="@string/id"
+                android:textAppearance="@style/BoldlStyle15sp333333" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="51dp"
+                android:orientation="horizontal"
+                android:gravity="center_vertical"
+                android:layout_marginTop="6dp">
+                <EditText
+                    android:id="@+id/id"
+                    android:layout_width="wrap_content"
+                    android:layout_height="51dp"
+                    android:layout_weight="1"
+                    android:paddingLeft="10dp"
+                    android:background="@drawable/edittext_border_2dp"
+                    android:textAppearance="@style/NormalStyle15spababab"
+                    android:hint="@string/id_guide"
+                    android:inputType="textVisiblePassword"/>
+                <TextView
+                    android:id="@+id/textview_id_check"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:paddingLeft="10dp"
+                    android:paddingRight="10dp"
+                    android:gravity="center"
+                    android:textSize="15dp"
+                    android:textColor="#000000"
+                    android:background="#BEBAB4"
+                    android:text="중복확인"/>
+            </LinearLayout>
+            <TextView
+                android:id="@+id/textview_pw"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:text="@string/password"
+                android:textAppearance="@style/BoldlStyle15sp333333" />
+
+            <EditText
+                android:id="@+id/password"
+                android:layout_width="match_parent"
+                android:layout_height="51dp"
+                android:layout_marginTop="6dp"
+                android:paddingLeft="10dp"
+                android:gravity="center_vertical"
+                android:background="@drawable/edittext_border_2dp"
+                android:maxLength="20"
+                android:textAppearance="@style/NormalStyle15spababab"
+                android:hint="@string/password_guide_new"
+                android:inputType="textPassword"/>
+            <TextView
+                android:id="@+id/textview_pwc"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:text="@string/password_confrim"
+                android:textAppearance="@style/BoldlStyle15sp333333" />
+
+            <EditText
+                android:id="@+id/password_confirm"
+                android:layout_width="match_parent"
+                android:layout_height="51dp"
+                android:layout_marginTop="6dp"
+                android:paddingLeft="10dp"
+                android:gravity="center_vertical"
+                android:background="@drawable/edittext_border_2dp"
+                android:maxLength="20"
+                android:textAppearance="@style/NormalStyle15spababab"
+                android:hint="@string/password_guide_new"
+                android:inputType="textPassword"/>
+
+            <TextView
+                android:id="@+id/textview_email"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:text="@string/email"
+                android:textAppearance="@style/BoldlStyle15sp333333" />
+
+            <EditText
+                android:id="@+id/email"
+                android:layout_width="match_parent"
+                android:layout_height="51dp"
+                android:layout_marginTop="6dp"
+                android:paddingLeft="10dp"
+                android:gravity="center_vertical"
+                android:background="@drawable/edittext_border_2dp"
+                android:textAppearance="@style/NormalStyle15spababab"
+                android:hint="@string/email_guide"
+                android:inputType="textEmailAddress"/>
+        </LinearLayout>
+    </ScrollView>
+    <LinearLayout
+        android:id="@+id/bottom"
+        android:layout_width="match_parent"
+        android:layout_height="57dp"
+        android:layout_alignParentBottom="true"
+        android:gravity="center"
+        android:background="#e53012">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:drawableLeft="@drawable/ic_input_white_24dp"
+            android:drawablePadding="9dp"
+            android:background="#e53012"
+            android:textColor="#ffffff"
+            android:textSize="22sp"
+            android:text="@string/join_continue" />
+    </LinearLayout>
+</RelativeLayout>

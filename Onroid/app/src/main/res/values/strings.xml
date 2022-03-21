@@ -1,3 +1,157 @@
 <resources>
-    <string name="app_name">Onroid</string>
+    <string name="app_name">Ondroid</string>
+    <!-- join -->
+    <string name="join">회원 가입</string>
+    <string name="login">로그인</string>
+
+    <string name="join_error">회원 가입 중 오류가 발생하였습니다. 잠시 후 다시 시도해 주세요.</string>
+    <string name="network_error">서버와의 통신이 원활치 않습니다.\n잠시 후 다시 시도해 주세요.</string>
+
+    <string name="terms_join">
+        이용약관\n
+
+        제1조 (목적)\n
+
+        본 약관은 욜로 서비스 (이하 "서비스")에 가입한 회원이 욜로(주) (이하 "회사")가 제공하는 서비스를 이용함에 있어 회원 및 회사 간의 제반 권리, 의무와 관련 절차 등을 규정하는데 그 목적이 있습니다.\n
+
+        제2조 (용어의 정의)\n
+
+        이 약관에서 사용하는 용어의 정의는 다음 각 항과 같으며, 정의되지 않은 용어에 대한 해석은 관계법령 및 웹 사이트 내 별도 안내에서 정하는 바에 따릅니다.\n
+
+        ① "서비스"라 함은 광고주가 회사에 게재 요청한 광고를 회사는 회원이 이용하는 단말기(스마트폰, 태블릿 PC 등의 각종 유무선 장치)와 PC(데스크탑, 노트북 등의 장치)에 제공하고, 이를 시청한 회원이 회사가 제공하는 절차를 이행하면 그에 대한 적립금을 지급하며, 이를 현금 환급 또는 기부하거나 제휴 컨텐츠를 이용할 수 있는 서비스 일체를 의미합니다.\n
+
+        ② "회원"이라 함은 서비스를 이용하기 위해 이 약관에 따라 회사와 이용계약을 체결하고 회사가 제공하는 서비스를 이용하는 고객을 의미합니다.\n
+
+        ③ "광고주"라 함은 회사가 제공하는 광고 신청 절차에 따라 회사가 제공하는 서비스에 광고 게재를 신청한 자를 의미합니다.\n
+
+        ④ "계정"이라 함은 회원의 식별과 서비스 이용을 위하여 회원이 선정하고 회사가 승인한 문자와 숫자의 조합을 의미합니다.\n
+
+        ⑤ "적립금"이라 함은 본 약관 제12조의 기준에 부합하여 회원이 회사가 정한 규정에 따라 현금 환급, 기부 및 제휴 컨텐츠 구입에 이용이 가능한 적립금을 말하며 재화로서의 가치는 없습니다.\n
+
+        ⑥ "제휴 컨텐츠"라 함은 회사가 제휴를 통하여 회원에게 제공하는 유/무상의 다양한 서비스를 의미합니다.\n
+
+        제3조 (약관의 게시, 효력 및 개정)\n
+    </string>
+
+    <!-- join -->
+
+    <string name="join1_guide">욜로여행사에 오신 것을 환영합니다.</string>
+    <string name="terms">이용약관</string>
+    <string name="user_info_policy">개인정보 취급방침</string>
+    <string name="join_agree_guide">회원 가입을 위해 이용약관과 개인정보 취급방침에 동의해주세요.</string>
+    <string name="join_member_info_guide">회원 가입을 위해\n아래 정보를 입력해주세요.</string>
+    <string name="id">아이디</string>
+    <string name="password">비밀번호</string>
+    <string name="password_confrim">비밀번호 확인</string>
+    <string name="email">이메일</string>
+    <string name="id_guide">아이디를 입력해주세요.</string>
+    <string name="id_guide_new">아이디를 4자 이상 입력해주세요.</string>
+    <string name="id_duplicated_check_guide">아이디 중복확인 버튼을 눌러\n아이디 중복 여부를 확인해주세요.</string>
+    <string name="password_guide">비밀번호를 입력해주세요.</string>
+    <string name="password_guide_new">영문, 숫자 포함 8~20자를 입력해주세요.</string>
+    <string name="password_confirm_error_guide">비밀번호가 일치하지 않습니다.</string>
+    <string name="email_guide">이메일을 입력해주세요.</string>
+    <string name="email_guide_invalid">이메일을 정확하게 입력해주세요.</string>
+    <string name="join_id_available">사용할 수 있는 아이디입니다.</string>
+    <string name="join_id_not_available">이미 사용 중인 아이디입니다.</string>
+    <string name="join_email_not_available">이미 사용 중인 이메일 입니다.</string>
+    <string name="join_cell_not_available">이미 사용 중인 전화번호 입니다.</string>
+    <string name="join_proposer_not_found">추천인을 찾을 수 없습니다.</string>
+      <string name="join_error_cell_duplicated">이미 사용 중인 전화번호입니다.\n회원 가입이 불가합니다.</string>
+    <string name="join_error_cell_invalid">전화번호를 가져올 수 없습니다.\n유심을 확인해 주세요.</string>
+    <string name="join_birdthyear_confirm">출생년도가 %1$s년이 맞습니까?</string>
+    <string name="name_error_guide">이름을 입력해주세요.</string>
+    <string name="cell2_error_guide">숫자 3자 이상을 입력해주세요.</string>
+    <string name="cell3_error_guide">숫자 4자 이상을 입력해주세요.</string>
+
+    <string name="name">이름</string>
+    <string name="company_name">단체명 (선택)</string>
+    <string name="name_guide">이름을 입력해주세요.</string>
+    <string name="company_name_guide">단체명을 입력해주세요.</string>
+    <string name="phone">휴대폰</string>
+    <string name="birth_year">출생년도</string>
+    <string name="region">지역(사는 곳)</string>
+    <string name="city">시/도</string>
+    <string name="gu">구/군</string>
+    <string name="gender">성별</string>
+    <string name="male">남성</string>
+    <string name="female">여성</string>
+    <string name="marriage">결혼</string>
+    <string name="single">미혼</string>
+    <string name="get_married">기혼</string>
+    <string name="sido_error_guide">시/도를 선택해주세요.</string>
+    <string name="gugun_error_guide">구/군을 선택해주세요.</string>
+    <string name="phone_number_error">전화번호를 찾을 수 없습니다. USIM 카드를 확인해 주세요.</string>
+
+    <string name="join_recommand_info_guide">추천인 아이디를 입력해주세요.</string>
+    <string name="join_recommand_id">추천인 아이디 (선택사항)</string>
+    <string name="join_proposer_reinput">돌아가기</string>
+    <string name="join_proposer_skip">건너뛰기</string>
+    <string name="telecom">통신사</string>
+    <string name="skt">SKT</string>
+    <string name="kt">KT</string>
+    <string name="lgt">LGT</string>
+    <string name="etc">알뜰폰</string>
+    <string name="os_kind">휴대폰 운영체제</string>
+    <string name="os_android">Android</string>
+    <string name="os_ios">IOS</string>
+    <string name="interests">관심분야(복수선택 가능)</string>
+    <string name="join_continue">계속</string>
+    <string name="join_finished">가입완료</string>
+    <string name="join_finished_more">네, 추가정보 입력하고\n포인트 받을게요.</string>
+    <string name="join_finished_normal">아니요, 그냥 할래요.</string>
+    <string name="join_more_info_finished">입력완료</string>
+    <string name="join_more_info_guide">추가 정보를 입력하시면\nOOO포인트를 드립니다.</string>
+    <string name="join_finished_guide">회원가입이 완료되었습니다.</string>
+    <string name="join_finished_normal_guide">애드잭팡에서\n팡팡터지는 행운을\n잡으세요!</string>
+    <string name="join_finished_more_info_guide">추가정보 입력이 완료되었습니다.</string>
+    <string name="join_more_info_point_guide">OOO포인트가\n지급되었습니다.</string>
+    <string name="join_go_luck">행운 잡으러 가기</string>
+    <string name="user_terms_agree">사용자 이용약관에 동의합니다.</string>
+    <string name="user_info_agree">개인정보 취급방침에 동의합니다.</string>
+    <string name="id_password_find">아이디/비밀번호 찾기</string>
+    <string name="id_find">아이디 찾기</string>
+    <string name="password_find">비밀번호 찾기</string>
+    <string name="id_password_find_guide3">아이디/비밀번호가 기억나지 않으세요?</string>
+    <string name="id_password_find_guide2">아이디/비밀번호를 분실하셨다면 아래 정보를 입력해주세요</string>
+    <string name="id_password_find_guide1">아이디/비밀번호를 잊으셨나요?</string>
+    <string name="id_send">으로\n아이디를 전송하였습니다.</string>
+    <string name="id_info_error">입력하신 정보가 정확하지 않습니다.\n다시 입력해 주세요.</string>
+    <string name="password_send">으로\n임시 비밀번호를 발송하였습니다.\n로그인 후 비밀번호를 변경해주세요.</string>
+    <string name="usim_absent">유심을 확인해 주세요.</string>
+
+    <!-- 로그인 -->
+    <string name="login_password_guide">비밀번호를 입력해주세요.</string>
+    <string name="login_info_save">로그인 정보 저장</string>
+    <string name="logout">로그아웃</string>
+    <string name="login_doing">로그인 중입니다.</string>
+    <string name="login_done">로그인 되었습니다.</string>
+    <string name="logout_done">로그아웃 되었습니다.</string>
+    <string name="logout_error">로그아웃 중 오류가 발생하였습니다.</string>
+
+    <string name="private_info">
+    개인정보취급방침\n
+
+    욜로 주식회사(이하 "회사")는 회원의 개인정보를 중요시하며, "정보통신망 이용촉진 및 정보보호 등에 관한 법률", "개인정보보호법" 등 관련 법령상의 개인정보보호 규정을 준수하며, 관련 법령에 의거한 개인정보취급방침을 정하여 이용자 권익 보호에 최선을 다하고 있습니다.\n
+
+    1. 개인정보의 수집항목 및 수집방법\n
+
+    ① 회사는 회원에게 원활한 서비스를 제공하기 위해 필요한 최소한의 정보만을 수집하고 있습니다.\n
+
+    ② 필수로 수집되는 항목은 아이디, 비밀번호, 이메일, 이름, 휴대폰번호, 출생년도, 지역, 성별, 결혼여부, 기기식별번호가 있습니다.\n
+
+    ③ 추가로 수집되는 항목은 은행명, 은행계좌번호, 서비스 이용 기록, 접속 IP, 접속 로그, 쿠키, 불량 이용 기록 등이 있습니다.\n
+
+    ④ 회사는 다음과 같은 방법으로 개인정보를 수집합니다.\n
+    - 서비스 회원가입\n
+    - 회원정보 수정\n
+    - 서면 양식\n
+    - 이벤트\n
+    - 전화 또는 팩스\n
+    - 제휴사로부터의 제공\n
+    - 로그 분석 프로그램을 통한 생성정보 수집\n
+    - 쿠키에 의한 정보 수집\n
+    - 단말기를 통한 정보 수집\n
+    </string>
+
 </resources>

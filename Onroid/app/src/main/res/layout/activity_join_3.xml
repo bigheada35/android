@@ -1,0 +1,284 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/bg_color"
+    >
+    <ScrollView
+        android:id="@+id/scrollview"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fillViewport="true"
+        android:layout_above="@+id/bottom">
+        <LinearLayout
+            android:id="@+id/content"
+            android:layout_above="@+id/bottom"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:paddingLeft="11dp"
+            android:paddingRight="11dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:drawableBottom="@drawable/orange_line"
+                android:drawablePadding="12dp"
+                android:gravity="center"
+                android:text="@string/join_member_info_guide"
+                android:textAppearance="@style/BoldlStyle19sp333333" />
+
+            <TextView
+                android:id="@+id/textview_name"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="35dp"
+                android:text="@string/name"
+                android:textAppearance="@style/BoldlStyle15sp333333" />
+
+            <EditText
+                android:id="@+id/name"
+                android:layout_width="match_parent"
+                android:layout_height="51dp"
+                android:layout_marginTop="6dp"
+                android:paddingLeft="10dp"
+                android:gravity="center_vertical"
+                android:background="@drawable/edittext_border_2dp"
+                android:textAppearance="@style/NormalStyle15spababab"
+                android:hint="@string/name_guide"
+                android:inputType="text"
+                android:imeOptions="actionDone"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="@string/phone"
+                android:textAppearance="@style/BoldlStyle15sp333333" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="51dp"
+                android:layout_marginTop="6dp"
+                android:orientation="horizontal"
+                android:weightSum="3">
+                <Spinner
+                    android:id="@+id/phoneSelector"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:background="@null"
+                    android:spinnerMode="dropdown"
+                    android:dropDownVerticalOffset="51dp"
+                    android:visibility="gone"/>
+                <EditText
+                    android:id="@+id/cell1"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:layout_marginLeft="0dp"
+                    android:paddingLeft="10dp"
+                    android:gravity="center_vertical"
+                    android:background="@drawable/edittext_border_2dp"
+                    android:text=""
+                    android:digits="0123456789"
+                    android:maxLength="4"
+                    android:inputType="numberDecimal"
+                    android:textAppearance="@style/NormalStyle15sp333333"
+                    android:enabled="false"/>
+                <EditText
+                    android:id="@+id/cell2"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:layout_marginLeft="5dp"
+                    android:paddingLeft="10dp"
+                    android:gravity="center_vertical"
+                    android:background="@drawable/edittext_border_2dp"
+                    android:text=""
+                    android:digits="0123456789"
+                    android:maxLength="4"
+                    android:inputType="numberDecimal"
+                    android:textAppearance="@style/NormalStyle15sp333333"
+                    android:enabled="false"/>
+                <EditText
+                    android:id="@+id/cell3"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:layout_marginLeft="5dp"
+                    android:paddingLeft="10dp"
+                    android:gravity="center_vertical"
+                    android:background="@drawable/edittext_border_2dp"
+                    android:text=""
+                    android:digits="0123456789"
+                    android:maxLength="4"
+                    android:inputType="numberDecimal"
+                    android:textAppearance="@style/NormalStyle15sp333333"
+                    android:enabled="false"/>
+            </LinearLayout>
+            <TextView
+                android:id="@+id/textview_birthyear"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:text="@string/birth_year"
+                android:textAppearance="@style/BoldlStyle15sp333333" />
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="51dp"
+                android:layout_marginTop="6dp"
+                android:orientation="horizontal"
+                android:weightSum="3">
+                <Spinner
+                    android:id="@+id/birthyearSelector"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:background="@null"
+                    android:spinnerMode="dropdown"
+                    android:dropDownVerticalOffset="51dp" />
+
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/textview_area"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:text="@string/region"
+                android:textAppearance="@style/BoldlStyle15sp333333" />
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="51dp"
+                android:layout_marginTop="6dp"
+                android:orientation="horizontal"
+                android:weightSum="2">
+                <Spinner
+                    android:id="@+id/citySelector"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:background="@null"
+                    android:spinnerMode="dropdown"
+                    android:dropDownVerticalOffset="51dp" />
+                <Spinner
+                    android:id="@+id/guSelector"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:background="@null"
+                    android:spinnerMode="dropdown"
+                    android:dropDownVerticalOffset="51dp"
+                    android:layout_marginLeft="5dp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="6dp"
+                android:orientation="horizontal"
+                android:weightSum="2">
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="@string/gender"
+                    android:textAppearance="@style/BoldlStyle15sp333333" />
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="@string/marriage"
+                    android:textAppearance="@style/BoldlStyle15sp333333" />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="6dp"
+                android:layout_marginBottom="6dp"
+                android:orientation="horizontal"
+                android:weightSum="2">
+
+                <RadioGroup
+                    android:id="@+id/gender"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:orientation="horizontal" >
+
+                    <RadioButton
+                        android:id="@+id/male"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:checked="true"
+                        android:button="@null"
+                        android:drawableLeft="@drawable/radio_button_selector"
+                        android:drawablePadding="9dp"
+                        android:text="@string/male"
+                        android:textSize="16sp"/>
+
+                    <RadioButton
+                        android:id="@+id/female"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="15dp"
+                        android:button="@null"
+                        android:drawableLeft="@drawable/radio_button_selector"
+                        android:drawablePadding="9dp"
+                        android:text="@string/female"
+                        android:textSize="16sp"/>
+                </RadioGroup>
+                <RadioGroup
+                    android:id="@+id/marriage"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:orientation="horizontal" >
+
+                    <RadioButton
+                        android:id="@+id/single"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:checked="true"
+                        android:button="@null"
+                        android:drawableLeft="@drawable/radio_button_selector"
+                        android:drawablePadding="9dp"
+                        android:text="@string/single"
+                        android:textSize="16sp"/>
+
+                    <RadioButton
+                        android:id="@+id/married"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="15dp"
+                        android:button="@null"
+                        android:drawableLeft="@drawable/radio_button_selector"
+                        android:drawablePadding="9dp"
+                        android:text="@string/get_married"
+                        android:textSize="16sp"/>
+                </RadioGroup>
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+    <LinearLayout
+        android:id="@+id/bottom"
+        android:layout_width="match_parent"
+        android:layout_height="57dp"
+        android:layout_alignParentBottom="true"
+        android:gravity="center"
+        android:background="#e53012">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:drawableLeft="@drawable/ic_continue"
+            android:drawablePadding="9dp"
+            android:background="#e53012"
+            android:textColor="#ffffff"
+            android:textSize="22sp"
+            android:text="@string/join_continue" />
+    </LinearLayout>
+</RelativeLayout>

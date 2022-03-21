@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/bg_color">
+
+    <ScrollView
+        android:id="@+id/join_scroll"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fillViewport="true"
+        android:layout_above="@+id/bottom">
+        <LinearLayout
+            android:id="@+id/content"
+            android:layout_above="@+id/bottom"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:paddingLeft="11dp"
+            android:paddingRight="11dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:drawableBottom="@drawable/orange_line"
+                android:drawablePadding="12dp"
+                android:gravity="center"
+                android:text="@string/join1_guide"
+                android:textAppearance="@style/BoldlStyle19sp333333" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:text="@string/terms"
+                android:textAppearance="@style/BoldlStyle15sp333333" />
+
+            <TextView
+                android:id="@+id/terms"
+                android:layout_width="match_parent"
+                android:layout_height="140dp"
+                android:layout_marginTop="10dp"
+
+android:background="@drawable/edittext_border_2dp"
+            android:padding="10dp"
+
+android:scrollbars="vertical"
+
+android:text="@string/terms_join"
+
+android:textAppearance="@style/NormalStyle15sp5e5e5e"
+/>
+
+            <androidx.appcompat.widget.AppCompatCheckedTextView
+                android:id="@+id/user_terms_agree"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:drawableLeft="@drawable/radio_button_selector"
+                android:checkMark="@null"
+                android:checked="false"
+                android:gravity="center_vertical"
+                android:textAppearance="@style/NormalStyle13sp333333"
+                android:drawablePadding="9dp"
+                android:text="@string/user_terms_agree"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="22dp"
+                android:text="@string/user_info_policy"
+                android:textAppearance="@style/BoldlStyle15sp333333" />
+
+            <TextView
+                android:id="@+id/user_info_policy"
+                android:layout_width="match_parent"
+                android:layout_height="140dp"
+                android:layout_marginTop="10dp"
+                android:padding="10dp"
+                android:background="@drawable/edittext_border_2dp"
+                android:textAppearance="@style/NormalStyle15sp5e5e5e"
+                android:text="@string/private_info"
+                android:scrollbars="vertical" />
+
+            <androidx.appcompat.widget.AppCompatCheckedTextView
+                android:id="@+id/user_info_agree"
+                android:layout_alignParentBottom="true"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="6dp"
+                android:drawableLeft="@drawable/radio_button_selector"
+                android:checked="false"
+                android:gravity="center_vertical"
+                android:textAppearance="@style/NormalStyle13sp333333"
+                android:drawablePadding="9dp"
+                android:text="@string/user_info_agree"/>
+        </LinearLayout>
+    </ScrollView>
+    <LinearLayout
+        android:id="@+id/bottom"
+        android:layout_width="match_parent"
+        android:layout_height="57dp"
+        android:layout_alignParentBottom="true"
+        android:gravity="center"
+        android:background="#e53012">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:drawableLeft="@drawable/ic_input_white_24dp"
+            android:drawablePadding="9dp"
+            android:background="#e53012"
+            android:textColor="#ffffff"
+            android:textSize="22sp"
+            android:text="@string/join_continue" />
+    </LinearLayout>
+
+
+</RelativeLayout>
